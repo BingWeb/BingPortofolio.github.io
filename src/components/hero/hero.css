@@ -15,7 +15,7 @@
   color: var(--text-color);
   z-index: 1;
   white-space: nowrap;
-  font-size: 5rem;
+  font-size: 9rem;
   transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
   font-weight: 800;
 }
@@ -53,6 +53,9 @@
 @media screen and (max-width: 992px) {
 }
 @media screen and (max-width: 768px) {
+.textFilled,
+.textOutline{
+font-size: 5rem
 }
 @media screen and (max-width: 576px) {
   .firstText {
