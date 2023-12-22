@@ -1,0 +1,71 @@
+.hero {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.textFilled,
+.textOutline {
+  position: absolute;
+  text-transform: uppercase;
+  font-style: italic;
+  pointer-events: none;
+  color: var(--text-color);
+  z-index: 1;
+  white-space: nowrap;
+  font-size: 5rem;
+  transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  font-weight: 800;
+}
+
+.textOutline {
+  z-index: 3;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+}
+
+.heroImage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroPicture {
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+}
+
+.firstText {
+  position: absolute;
+  top: 11rem;
+}
+
+.secondText {
+  position: absolute;
+  top: 15rem;
+}
+
+/* breakpoints */
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+  .firstText {
+    top: 16rem;
+  }
+
+  .secondText {
+    top: 20rem;
+  }
+  .heroPicture {
+    width: 240px;
+    height: 240px;
+  }
+}
+@media screen and (max-width: 350px) {
+}
