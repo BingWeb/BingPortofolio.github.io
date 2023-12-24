@@ -50,17 +50,18 @@
 }
 
 /* breakpoints */
-@media screen and (max-width: 992px) {
-}
+
 @media screen and (max-width: 768px) {
-.textFilled,
-.textOutline{
-  font-size: 5rem;
-}
-  .heroPicture{
+  .textFilled,
+  .textOutline {
+    font-size: 5rem;
+  }
+  .heroPicture {
     width: 300px;
     height: 300px;
   }
+}
+
 @media screen and (max-width: 576px) {
   .firstText {
     top: 16rem;
@@ -69,10 +70,10 @@
   .secondText {
     top: 20rem;
   }
+
   .heroPicture {
     width: 250px;
     height: 250px;
   }
 }
-@media screen and (max-width: 350px) {
-}
+
