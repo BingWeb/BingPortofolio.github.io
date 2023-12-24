@@ -55,11 +55,12 @@
 @media screen and (max-width: 768px) {
 .textFilled,
 .textOutline{
-font-size: 5rem
+  font-size: 5rem;
 }
   .heroPicture{
     width: 300px;
     height: 300px;
+  }
 @media screen and (max-width: 576px) {
   .firstText {
     top: 16rem;
