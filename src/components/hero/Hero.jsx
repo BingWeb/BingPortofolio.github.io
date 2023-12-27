@@ -12,34 +12,36 @@ const Hero = () => {
     <section className="hero" id="home">
       <div className="containerHero">
         <div className="firstText">
-          <motion.h1
-            initial={{ x: -1800 }}
-            animate={{
-              x: 0,
-              transition: {
-                duration: 0.8,
-                delay: 2,
-              },
-            }}
-            style={{ x: right }}
-            className="textFilled"
-          >
-            software engineer
-          </motion.h1>
-          <motion.h1
-            initial={{ x: -1800 }}
-            animate={{
-              x: 0,
-              transition: {
-                duration: 0.8,
-                delay: 2,
-              },
-            }}
-            style={{ x: right }}
-            className="textOutline"
-          >
-            software engineer
-          </motion.h1>
+         <motion.h1
+  initial={{ y: -400 }}
+  animate={{
+    y: 0,
+    transition: {
+      duration: 0.8,
+      delay: 2,
+    },
+  }}
+  style={{ y: right, left: "50%", right: "auto", transform: "translateX(-50%)" }}
+  className="textFilled"
+>
+  software engineer
+</motion.h1>
+
+<motion.h1
+  initial={{ y: -400 }}
+  animate={{
+    y: 0,
+    transition: {
+      duration: 0.8,
+      delay: 2,
+    },
+  }}
+  style={{ y: right, left: "50%", right: "auto", transform: "translateX(-50%)" }}
+  className="textOutline"
+>
+  software engineer
+</motion.h1>
+
         </div>
         <div className="secondText">
           <motion.h1
