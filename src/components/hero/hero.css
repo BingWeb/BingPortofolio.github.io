@@ -41,13 +41,20 @@
 
 .firstText {
   position: absolute;
-  top: 11rem;
+  top: 40%;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 .secondText {
   position: absolute;
-  top: 15rem;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
+
 
 /* breakpoints */
 
