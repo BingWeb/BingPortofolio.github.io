@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <nav>
       <div className="navName">
-        <span>Hi, my name is</span>
-        <span>Fachrur Rizhky</span>
+        <span>Hello Guys!</span>
+        <span>This Is Wira</span>
       </div>
       <div className="containerNav">
         <div className="navMenuRight">
@@ -33,7 +33,7 @@ const Navbar = () => {
             className={icon === "#work" ? "iconActive" : ""}
           >
             <i class="uil uil-notebooks iconNavbar"></i>
-            <span className="TextNavbar">Work</span>
+            <span className="TextNavbar">Testi</span>
           </a>
         </div>
         <div className="navMenuBott">
@@ -43,7 +43,7 @@ const Navbar = () => {
             className={icon === "#service" ? "iconActive" : ""}
           >
             <i class="uil uil-sliders-v-alt iconNavbar"></i>
-            <span className="TextNavbar">Service</span>
+            <span className="TextNavbar">Price</span>
           </a>
           <a
             href="#footer"
