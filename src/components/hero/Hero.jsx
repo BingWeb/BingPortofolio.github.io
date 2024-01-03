@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-import profilePicture from "../../assets/profileHero.png";
+import profilePicture from "../../assets/profile.png";
 import "./hero.css";
 
 const Hero = () => {
