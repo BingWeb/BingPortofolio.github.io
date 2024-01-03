@@ -43,7 +43,7 @@ const Navbar = () => {
             className={icon === "#service" ? "iconActive" : ""}
           >
             <i class="uil uil-sliders-v-alt iconNavbar"></i>
-            <span className="TextNavbar">Price</span>
+            <span className="TextNavbar">Price List</span>
           </a>
           <a
             href="#footer"
