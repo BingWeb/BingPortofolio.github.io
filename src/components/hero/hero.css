@@ -22,7 +22,7 @@
 
 .textOutline {
   z-index: 3;
-  color: var(--primary-color);
+  color: var(--text-color);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
 }
