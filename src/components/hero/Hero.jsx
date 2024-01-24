@@ -24,7 +24,7 @@ const Hero = () => {
             style={{ x: right }}
             className="textFilled"
           >
-            profesional trader
+            senior developer
           </motion.h1>
           <motion.h1
             initial={{ x: -1800 }}
@@ -38,7 +38,7 @@ const Hero = () => {
             style={{ x: right }}
             className="textOutline"
           >
-            profesional trader
+            senior developer
           </motion.h1>
         </div>
         <div className="secondText">
@@ -54,7 +54,7 @@ const Hero = () => {
             style={{ x: left }}
             className="textFilled"
           >
-            analis forex terkemuka
+            website developer
           </motion.h1>
           <motion.h1
             initial={{ x: 1800 }}
@@ -68,7 +68,7 @@ const Hero = () => {
             style={{ x: left }}
             className="textOutline"
           >
-            analis forex terkemuka
+            website developer
           </motion.h1>
         </div>
         <div className="heroImage">
