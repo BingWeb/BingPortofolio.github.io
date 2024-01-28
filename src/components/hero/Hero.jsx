@@ -24,7 +24,7 @@ const Hero = () => {
             style={{ x: right }}
             className="textFilled"
           >
-            senior developer
+            profesional programer
           </motion.h1>
           <motion.h1
             initial={{ x: -1800 }}
@@ -38,7 +38,7 @@ const Hero = () => {
             style={{ x: right }}
             className="textOutline"
           >
-            senior developer
+            profesional programer
           </motion.h1>
         </div>
         <div className="secondText">
